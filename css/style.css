@@ -1,0 +1,135 @@
+/*
+
+
+*/
+
+
+/* General styles - START */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+}
+
+a {
+    transition: all .3s;
+}
+
+span {
+    color: green;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+
+
+/* General styles - STOP*/
+
+nav#menu {
+    background-color: #fff;
+    margin-bottom: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav#menu>ul {
+    margin: 0;
+    text-align: right;
+}
+
+nav#menu ul>li {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav#menu ul>li a {
+    text-decoration: none;
+    color: #1ac056;
+    opacity: 0.5;
+    font-weight: 300;
+    text-transform: lowercase;
+    /* zabezpieczenie zeby wszystkie litery male byly */
+}
+
+nav#menu ul>li a:hover {
+    color: #291f1a;
+}
+
+header#main-header {
+    color: #fff;
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+header#main-header .header-caption {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+header#main-header .header-caption h1 {
+    font-size: 4em;
+    font-weight: 300;
+}
+
+header#main-header .header-caption h2 {
+    font-weight: 100;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about figure {
+    margin: 0;
+    text-align: center;
+    -webkit-box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px -4px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+section#about {
+    padding: 30px 80px;
+}
+
+#about div p {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+section#skills{
+    
+}
+
+
+
+
